@@ -16,7 +16,7 @@ import Image from "next/image";
 
 export default class ImagesCaurosel extends Component {
     render(): ReactNode {
-        let data = [
+        const data = [
             {
             img: Image1,
             title: "students learning web3 basics",
